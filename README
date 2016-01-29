@@ -1,0 +1,4 @@
+This repository is stored some implementations about
+variaty of Boltzmann Machine, and relative training 
+methods, including Parallel Tempering, Persistant 
+Contrastive Divergence, Contrastive Divergence.
