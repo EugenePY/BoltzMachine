@@ -1,4 +1,10 @@
 This repository is stored some implementations about
-variaty of Boltzmann Machine, and relative training 
-methods, including Parallel Tempering, Persistant 
-Contrastive Divergence, Contrastive Divergence.
+variety of Boltzmann Machine, and relative training 
+methods, including Parallel Tempering, Persistent 
+Contrastive Divergence, Contrastive Divergence. 
+
+The Cost functional we are using is Contrastive Divergence(difference between two KL divergence) is kind of variational method to deal with untraceable likelihood function.
+The optimization we adopt the Stochastic Gradient Descent. 
+
+We have add momentum term, and adaptive adjusted learning rate method. The learning 
+rate in BM-like model is very affecting the leaning. The weights use 0.0001 as initial learning rate.
