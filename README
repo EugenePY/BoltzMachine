@@ -1,9 +1,22 @@
+<<<<<<< HEAD
 This repository is stored some implementations about variety of Boltzmann Machine, and relative training methods, including Parallel Tempering, Persistent 
 Contrastive Divergence, Contrastive Divergence.
+=======
+Boltzmann Machine : --version=0.0
 
-The Cost functional we are using is Contrastive Divergence(difference between two KL divergence) is kind of variational method to deal with untraceable likelihood function.
+---INTRODUCTION---
+
+This repository is stored some implementations about
+variety of Boltzmann Machine, and relative training 
+methods, including Parallel Tempering, Persistent 
+Contrastive Divergence, Contrastive Divergence. 
+>>>>>>> b971997e795a246b8c3bab1a8f38f7e8f7a7b193
+
+The Cost functional we are using is Contrastive Divergence(difference between two KL divergence) 
+is kind of variational method to deal with untraceable likelihood function.
 The optimization we adopt the Stochastic Gradient Descent. 
 
+<<<<<<< HEAD
 We have add momentum term, and adaptive adjusted learning rate method. The learning 
 rate in BM-like model is very affected by the leaning. The weights use 0.0001 as initial learning rate.
 
@@ -11,3 +24,26 @@ I also include some important proof about the derivation about how or why the ap
 
 Please feel free to inform me if there are any mistakes in the proof or code. Thx.
 The Testing Data including some standard data sets, and some data sets I had.
+=======
+The RBM is quite powerful to solving the Recommendation System problem. And I found PT
+training can really improve the learning of a RBM, also have another benifits(AIS for esitmate the 
+partition part to monitor the learning of RBM).
+
+---Respository Description---
+
+code:
+	Including the basic outline of the basic algorithms, which just give a quick implementation.
+
+Reference:
+	Deep Tempering	
+	Recurrent Temporal RBM 
+	RBM
+	AdaDelta
+	Multi-Class RBM
+
+Future works:
+	Modulize the Repository.
+	Connecting the MEGAMA(http://icl.cs.utk.edu/magma/)to improve the performance of some operation.
+	Trying to improve the Theano, and learn form it.
+	
+>>>>>>> b971997e795a246b8c3bab1a8f38f7e8f7a7b193
