@@ -15,11 +15,8 @@ The Cost functional we are using is Contrastive Divergence(difference between tw
 is kind of variational method to deal with untraceable likelihood function.
 The optimization we adopt the Stochastic Gradient Descent. 
 
+Please feel free to inform me if there are any mistakes in the code or how to improve this repository. Thx.
 
-I also include some important proof about the derivation about how or why the approximation works, and other MCMC method, the proof is in the RBM_note.pdf.
-
-Please feel free to inform me if there are any mistakes in the proof or code. Thx.
-The Testing Data including some standard data sets, and some data sets I had.
 =======
 The RBM is quite powerful to solving the Recommendation System problem. And I found PT
 training can really improve the learning of a RBM, also have another benifits(AIS for esitmate the 
