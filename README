@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This repository is stored some implementations about variety of Boltzmann Machine, and relative training methods, including Parallel Tempering, Persistent 
 Contrastive Divergence, Contrastive Divergence.
 =======
@@ -10,15 +9,12 @@ This repository is stored some implementations about
 variety of Boltzmann Machine, and relative training 
 methods, including Parallel Tempering, Persistent 
 Contrastive Divergence, Contrastive Divergence. 
->>>>>>> b971997e795a246b8c3bab1a8f38f7e8f7a7b193
+
 
 The Cost functional we are using is Contrastive Divergence(difference between two KL divergence) 
 is kind of variational method to deal with untraceable likelihood function.
 The optimization we adopt the Stochastic Gradient Descent. 
 
-<<<<<<< HEAD
-We have add momentum term, and adaptive adjusted learning rate method. The learning 
-rate in BM-like model is very affected by the leaning. The weights use 0.0001 as initial learning rate.
 
 I also include some important proof about the derivation about how or why the approximation works, and other MCMC method, the proof is in the RBM_note.pdf.
 
@@ -45,5 +41,3 @@ Future works:
 	Modulize the Repository.
 	Connecting the MEGAMA(http://icl.cs.utk.edu/magma/)to improve the performance of some operation.
 	Trying to improve the Theano, and learn form it.
-	
->>>>>>> b971997e795a246b8c3bab1a8f38f7e8f7a7b193
