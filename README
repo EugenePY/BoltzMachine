@@ -29,12 +29,15 @@ partition part to monitor the learning of RBM).
 
 code:
 	Including the basic outline of the basic algorithms, which just give a quick implementation.
-	Current Model:
+	Current Models:
 		Restricted Boltzmann Machine with Bernoulli Unit
 		Restricted Boltzmann Machine with Multi-Class Bernoulli(multivariate bernoulli)
 		Recurrent Temporal Restricted Boltzmann Machine with Bernoulli
 		Recurrent Temporal Restricted Boltzmann Machine with Multi-Class Bernoulli(multivariate bernoulli)
 		Parallel Tempering Trained Restricted Boltzmann Machine with Bernoulli Unit
+	Upcomming Model:
+		Semi-Restricted Boltzmann Machine with Bernolli Unit
+		Random Markov Field(No hidden unit RBM but visible unit are fully connected).
 		
 
 Reference:
